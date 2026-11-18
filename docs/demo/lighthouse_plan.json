@@ -1,0 +1,808 @@
+[
+ {
+  "tool": "gaussify_image",
+  "image_path": "data/lighthouse/lighthouse.png",
+  "name": "lighthouse"
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "box",
+  "x0": -0.3,
+  "y0": -0.5,
+  "x1": 1.3,
+  "y1": 0.565
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "polygon",
+  "mode": "subtract",
+  "points": [
+   [
+    0,
+    0.49
+   ],
+   [
+    0.04,
+    0.535
+   ],
+   [
+    0.085,
+    0.455
+   ],
+   [
+    0.12,
+    0.395
+   ],
+   [
+    0.133,
+    0.39
+   ],
+   [
+    0.133,
+    0.365
+   ],
+   [
+    0.143,
+    0.365
+   ],
+   [
+    0.143,
+    0.385
+   ],
+   [
+    0.195,
+    0.385
+   ],
+   [
+    0.195,
+    0.36
+   ],
+   [
+    0.207,
+    0.36
+   ],
+   [
+    0.207,
+    0.385
+   ],
+   [
+    0.225,
+    0.38
+   ],
+   [
+    0.243,
+    0.395
+   ],
+   [
+    0.243,
+    0.375
+   ],
+   [
+    0.255,
+    0.375
+   ],
+   [
+    0.255,
+    0.405
+   ],
+   [
+    0.3,
+    0.445
+   ],
+   [
+    0.318,
+    0.495
+   ],
+   [
+    0.37,
+    0.495
+   ],
+   [
+    0.375,
+    0.513
+   ],
+   [
+    0.418,
+    0.513
+   ],
+   [
+    0.424,
+    0.345
+   ],
+   [
+    0.43,
+    0.285
+   ],
+   [
+    0.422,
+    0.272
+   ],
+   [
+    0.423,
+    0.235
+   ],
+   [
+    0.434,
+    0.213
+   ],
+   [
+    0.434,
+    0.17
+   ],
+   [
+    0.452,
+    0.14
+   ],
+   [
+    0.457,
+    0.112
+   ],
+   [
+    0.462,
+    0.14
+   ],
+   [
+    0.48,
+    0.17
+   ],
+   [
+    0.48,
+    0.213
+   ],
+   [
+    0.49,
+    0.235
+   ],
+   [
+    0.491,
+    0.272
+   ],
+   [
+    0.484,
+    0.285
+   ],
+   [
+    0.488,
+    0.345
+   ],
+   [
+    0.499,
+    0.53
+   ],
+   [
+    0.56,
+    0.505
+   ],
+   [
+    0.575,
+    0.505
+   ],
+   [
+    0.642,
+    0.538
+   ],
+   [
+    0.655,
+    0.56
+   ],
+   [
+    0.68,
+    0.572
+   ],
+   [
+    0.68,
+    0.62
+   ],
+   [
+    0,
+    0.62
+   ]
+  ]
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.55,
+   0.62,
+   0.63
+  ],
+  "tolerance": 0.12
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.42,
+   0.5,
+   0.53
+  ],
+  "tolerance": 0.1
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.33,
+   0.4,
+   0.46
+  ],
+  "tolerance": 0.08
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.64,
+   0.72,
+   0.75
+  ],
+  "tolerance": 0.08
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.07,
+   0.17,
+   0.21
+  ],
+  "tolerance": 0.1
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "color",
+  "mode": "add",
+  "rgb": [
+   0.42,
+   0.6,
+   0.66
+  ],
+  "tolerance": 0.15
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "polygon",
+  "mode": "subtract",
+  "points": [
+   [
+    0,
+    0.49
+   ],
+   [
+    0.04,
+    0.535
+   ],
+   [
+    0.085,
+    0.455
+   ],
+   [
+    0.12,
+    0.395
+   ],
+   [
+    0.133,
+    0.39
+   ],
+   [
+    0.133,
+    0.365
+   ],
+   [
+    0.143,
+    0.365
+   ],
+   [
+    0.143,
+    0.385
+   ],
+   [
+    0.195,
+    0.385
+   ],
+   [
+    0.195,
+    0.36
+   ],
+   [
+    0.207,
+    0.36
+   ],
+   [
+    0.207,
+    0.385
+   ],
+   [
+    0.225,
+    0.38
+   ],
+   [
+    0.243,
+    0.395
+   ],
+   [
+    0.243,
+    0.375
+   ],
+   [
+    0.255,
+    0.375
+   ],
+   [
+    0.255,
+    0.405
+   ],
+   [
+    0.3,
+    0.445
+   ],
+   [
+    0.318,
+    0.495
+   ],
+   [
+    0.37,
+    0.495
+   ],
+   [
+    0.375,
+    0.513
+   ],
+   [
+    0.418,
+    0.513
+   ],
+   [
+    0.499,
+    0.53
+   ],
+   [
+    0.56,
+    0.505
+   ],
+   [
+    0.575,
+    0.505
+   ],
+   [
+    0.642,
+    0.538
+   ],
+   [
+    0.655,
+    0.56
+   ],
+   [
+    0.68,
+    0.572
+   ],
+   [
+    0.68,
+    0.62
+   ],
+   [
+    0,
+    0.62
+   ]
+  ]
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "box",
+  "mode": "intersect",
+  "x0": -0.3,
+  "y0": -0.5,
+  "x1": 1.3,
+  "y1": 0.565
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "sky",
+  "shape": "box",
+  "mode": "subtract",
+  "x0": 0.436,
+  "y0": 0.172,
+  "x1": 0.478,
+  "y1": 0.215
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "roofs",
+  "shape": "color",
+  "rgb": [
+   0.5,
+   0.25,
+   0.2
+  ],
+  "tolerance": 0.2
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "roofs",
+  "shape": "box",
+  "mode": "intersect",
+  "x0": 0,
+  "y0": 0.33,
+  "x1": 0.66,
+  "y1": 0.56
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "polygon",
+  "points": [
+   [
+    0.457,
+    0.112
+   ],
+   [
+    0.462,
+    0.14
+   ],
+   [
+    0.48,
+    0.17
+   ],
+   [
+    0.48,
+    0.213
+   ],
+   [
+    0.49,
+    0.235
+   ],
+   [
+    0.491,
+    0.272
+   ],
+   [
+    0.484,
+    0.285
+   ],
+   [
+    0.488,
+    0.345
+   ],
+   [
+    0.501,
+    0.578
+   ],
+   [
+    0.442,
+    0.578
+   ],
+   [
+    0.44,
+    0.53
+   ],
+   [
+    0.423,
+    0.47
+   ],
+   [
+    0.424,
+    0.345
+   ],
+   [
+    0.43,
+    0.285
+   ],
+   [
+    0.422,
+    0.272
+   ],
+   [
+    0.423,
+    0.235
+   ],
+   [
+    0.434,
+    0.213
+   ],
+   [
+    0.434,
+    0.17
+   ],
+   [
+    0.452,
+    0.14
+   ]
+  ]
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.55,
+   0.62,
+   0.63
+  ],
+  "tolerance": 0.12
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.42,
+   0.5,
+   0.53
+  ],
+  "tolerance": 0.1
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.33,
+   0.4,
+   0.46
+  ],
+  "tolerance": 0.08
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.64,
+   0.72,
+   0.75
+  ],
+  "tolerance": 0.08
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.07,
+   0.17,
+   0.21
+  ],
+  "tolerance": 0.1
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.42,
+   0.6,
+   0.66
+  ],
+  "tolerance": 0.15
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "tower",
+  "shape": "box",
+  "mode": "add",
+  "x0": 0.436,
+  "y0": 0.172,
+  "x1": 0.478,
+  "y1": 0.215
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "lamp",
+  "shape": "box",
+  "x0": 0.436,
+  "y0": 0.172,
+  "x1": 0.478,
+  "y1": 0.215
+ },
+ {
+  "tool": "start_recording",
+  "name": "lighthouse",
+  "frames_per_edit": 14,
+  "hold_frames": 10,
+  "captions": true,
+  "intro": true
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "recolor",
+  "selection": "sky",
+  "params": {
+   "tint": [
+    1.0,
+    0.5,
+    0.2
+   ],
+   "tint_strength": 0.6,
+   "saturation": 1.3
+  },
+  "caption": "Golden hour, on demand"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "recolor",
+  "selection": "roofs",
+  "params": {
+   "hue": 215,
+   "saturation": 1.2
+  },
+  "caption": "Repaint the roofs. No ladder needed"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "swirl",
+  "selection": "all",
+  "params": {
+   "cx": 0.6,
+   "cy": 0.865,
+   "radius": 0.085,
+   "degrees": 300
+  },
+  "caption": "Somebody pulled the plug"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "lift",
+  "selection": "tower",
+  "params": {
+   "amount": 0.18
+  },
+  "caption": "Lighthouse, one step forward please"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "camera",
+  "selection": "all",
+  "params": {
+   "yaw": 0.0,
+   "pitch": 5.0,
+   "zoom": 1.06
+  },
+  "caption": "Tilt the view: it really stepped out"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "duplicate",
+  "selection": "tower",
+  "params": {
+   "dx": 0.42,
+   "dy": 0.035
+  },
+  "caption": "Buy one, get one free"
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "lamp",
+  "shape": "box",
+  "mode": "add",
+  "x0": 0.848,
+  "y0": 0.16,
+  "x1": 0.893,
+  "y1": 0.207
+ },
+ {
+  "tool": "select_region",
+  "name": "lighthouse",
+  "selection": "lamp",
+  "shape": "color",
+  "mode": "subtract",
+  "rgb": [
+   0.8,
+   0.54,
+   0.39
+  ],
+  "tolerance": 0.25
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "recolor",
+  "selection": "lamp",
+  "params": {
+   "brightness": 1.8,
+   "tint": [
+    1.9,
+    1.85,
+    1.0
+   ],
+   "tint_strength": 0.9
+  },
+  "caption": "Lights on, both of them"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "scale",
+  "selection": "tower",
+  "params": {
+   "fx": 1.1,
+   "fy": 1.12,
+   "cx": 0.458,
+   "cy": 0.595
+  },
+  "caption": "Sibling rivalry: the original grows"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "bulge",
+  "selection": "tower",
+  "params": {
+   "cx": 0.455,
+   "cy": 0.2,
+   "radius": 0.09,
+   "strength": 0.9
+  },
+  "caption": "...and gets a big head about it"
+ },
+ {
+  "tool": "edit",
+  "name": "lighthouse",
+  "op": "camera",
+  "selection": "all",
+  "params": {
+   "yaw": 0,
+   "pitch": 0,
+   "zoom": 1.0
+  },
+  "caption": "Good night!"
+ },
+ {
+  "tool": "stop_recording",
+  "name": "lighthouse",
+  "out_path": "previews/lighthouse/lighthouse.webp",
+  "fps": 20,
+  "orbit_finale": false,
+  "width": 512
+ }
+]

@@ -1,0 +1,60 @@
+[project]
+name = "mirage-gaussifier-mcp"
+version = "0.1.0"
+description = "MCP server that turns images into editable MiraGe Gaussian images, initialised by Gaussifier"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "torch==2.12.*",
+  "torchvision",
+  "numpy",
+  "pillow",
+  "plyfile",
+  "trimesh",
+  "scipy",
+  "tqdm",
+  "pytorch-msssim",
+  "setuptools",
+  "mcp>=1.2,<2",
+  "gaussifier-sampler",
+  "simple-knn",
+  "diff-gaussian-rasterization",
+  "matplotlib",
+]
+
+[project.scripts]
+mirage-gaussifier-mcp = "mirage_gaussifier_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mirage_gaussifier_mcp"]
+
+[tool.uv]
+# The MiraGe CUDA extensions build against the installed torch.
+no-build-isolation-package = ["simple-knn", "diff-gaussian-rasterization"]
+
+[tool.uv.sources]
+simple-knn = { path = "third_party/MiraGe/submodules/simple-knn" }
+diff-gaussian-rasterization = { path = "third_party/MiraGe/submodules/diff-gaussian-rasterization" }
+gaussifier-sampler = { path = "third_party/gaussifier", editable = true }
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+# Static metadata for the MiraGe CUDA extensions, so uv can resolve the environment before
+# torch is installed (they are built in a second `uv sync`, see scripts/setup.sh).
+[[tool.uv.dependency-metadata]]
+name = "simple-knn"
+version = "0.0.0"
+requires-dist = []
+
+[[tool.uv.dependency-metadata]]
+name = "diff-gaussian-rasterization"
+version = "0.0.0"
+requires-dist = []
